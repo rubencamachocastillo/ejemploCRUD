@@ -61,7 +61,7 @@ public class User{
     public Connection getConnection(){
         try{
             Class.forName("com.mysql.jdbc.Driver");   
-            connection = DriverManager.getConnection( "jdbc:mysql://localhost:3306/User","root","");
+            connection = DriverManager.getConnection( "jdbc:mysql://node92744-env-1375613.jelastic.saveincloud.net:3306/User","root","yGJAXTBy6P");
         }catch(Exception e){
             System.out.println(e);
         }
